@@ -38,7 +38,7 @@
 
         <config-file target="res/xml/config.xml" parent="*">
             <feature name="FacebookConnectPlugin">
-                <param name="org.apache.cordova.facebook.Connect" value="FacebookConnectPlugin"/>
+                <param name="com.phonegap.plugins.facebookconnect" value="FacebookConnectPlugin"/>
             </feature>
         </config-file>
         
