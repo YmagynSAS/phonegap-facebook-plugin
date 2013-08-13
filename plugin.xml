@@ -69,8 +69,8 @@
       
         <!-- Cordova >= 2.3 -->
         <config-file target="config.xml" parent="*">
-            <feature name="FacebookConnectPlugin">
-                <param name="org.apache.cordova.facebook.Connect" value="FacebookConnectPlugin"/>
+            <feature name="org.apache.cordova.facebook.Connect">
+                <param name="ios-package" value="FacebookConnectPlugin" />
             </feature>
         </config-file>
         
