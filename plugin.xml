@@ -37,7 +37,7 @@
     <platform name="android">
 
         <config-file target="res/xml/config.xml" parent="*">
-            <feature name="FacebookConnectPlugin">
+            <feature name="org.apache.cordova.facebook.Connect">
                 <param name="org.apache.cordova.facebook.Connect" value="FacebookConnectPlugin"/>
             </feature>
         </config-file>
@@ -70,7 +70,7 @@
         <!-- Cordova >= 2.3 -->
         <config-file target="config.xml" parent="*">
             <feature name="org.apache.cordova.facebook.Connect">
-                <param name="ios-package" value="FacebookConnectPlugin" />
+                <param name="org.apache.cordova.facebook.Connect" value="FacebookConnectPlugin" />
             </feature>
         </config-file>
         
@@ -97,10 +97,10 @@
         </config-file>
 
         <!-- release facebook 3.5.2 framework -->
-        <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Release.a" framework="true" />
+        <!-- <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Release.a" framework="true" /> -->
         
         <!-- debug facebook 3.5.2 framework  -->
-        <!-- <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Debug.a" framework="true" /> -->
+        <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Debug.a" framework="true" />
 
         <!-- facebook header files -->
         <header-file src="src/ios/headers/FBAccessTokenData.h" target-dir="facebook" />
@@ -149,7 +149,6 @@
         <framework src="Accounts.framework" weak="true" />
         <framework src="AdSupport.framework" weak="true" />
         <framework src="Security.framework" weak="true" />
-        <framework src="FacebookSDK.framework" weak="true" />
 
     </platform>
 </plugin>
