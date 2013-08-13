@@ -78,11 +78,11 @@
         <source-file src="src/ios/FacebookConnectPlugin.m" />
 
         <config-file target="*-Info.plist" parent="FacebookAppID">
-            <string>389393334463624</string>
+            <string>225755174148549</string>
         </config-file>
         
         <config-file target="*-Info.plist" parent="FacebookDisplayName">
-            <string>facebook_ymagyn</string>
+            <string>Mathieu Moriceau's app</string>
         </config-file>
         
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
@@ -90,7 +90,7 @@
             <dict>
               <key>CFBundleURLSchemes</key>
               <array>
-                <string>fb389393334463624</string>
+                <string>fb225755174148549</string>
               </array>
             </dict>
           </array>
