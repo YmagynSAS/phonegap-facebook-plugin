@@ -84,14 +84,6 @@
         <config-file target="*-Info.plist" parent="FacebookDisplayName">
             <string>facebook_ymagyn</string>
         </config-file>
-
-        <config-file target="*-Info.plist" parent="APP_ID">
-            <string>389393334463624</string>
-        </config-file>
-
-        <config-file target="*-Info.plist" parent="APP_NAME">
-            <string>facebook_ymagyn</string>
-        </config-file>
         
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
           <array>
