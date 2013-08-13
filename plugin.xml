@@ -149,7 +149,7 @@
         <framework src="Accounts.framework" weak="true" />
         <framework src="AdSupport.framework" weak="true" />
         <framework src="Security.framework" weak="true" />
-        <framework src="FacebookSDK.framework" weak="true" /<
+        <framework src="FacebookSDK.framework" weak="true" />
 
     </platform>
 </plugin>
