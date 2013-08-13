@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.phonegap.plugins.facebookconnect"
+    id="org.apache.cordova.facebook.Connect"
     version="0.3.2">
 
     <name>Facebook Connect</name>
@@ -38,7 +38,7 @@
 
         <config-file target="res/xml/config.xml" parent="*">
             <feature name="FacebookConnectPlugin">
-                <param name="com.phonegap.plugins.facebookconnect" value="FacebookConnectPlugin"/>
+                <param name="org.apache.cordova.facebook.Connect" value="FacebookConnectPlugin"/>
             </feature>
         </config-file>
         
@@ -70,7 +70,7 @@
         <!-- Cordova >= 2.3 -->
         <config-file target="config.xml" parent="*">
             <feature name="FacebookConnectPlugin">
-                <param name="com.phonegap.plugins.facebookconnect" value="FacebookConnectPlugin"/>
+                <param name="org.apache.cordova.facebook.Connect" value="FacebookConnectPlugin"/>
             </feature>
         </config-file>
         
