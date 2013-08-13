@@ -68,7 +68,7 @@
     <platform name="ios">
       
         <!-- Cordova >= 2.3 -->
-        <config-file target="config.xml" parent="*">
+        <config-file target="config.xml" parent="widget">
             <feature name="FacebookConnectPlugin">
                 <param name="org.apache.cordova.facebook.Connect" value="FacebookConnectPlugin"/>
             </feature>
@@ -82,6 +82,14 @@
         </config-file>
         
         <config-file target="*-Info.plist" parent="FacebookDisplayName">
+            <string>facebook_ymagyn</string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="APP_ID">
+            <string>389393334463624</string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="APP_NAME">
             <string>facebook_ymagyn</string>
         </config-file>
         
