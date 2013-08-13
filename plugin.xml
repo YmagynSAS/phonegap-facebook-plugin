@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="org.apache.cordova.facebook.Connect"
+    id="com.phonegap.plugins.facebookconnect"
     version="0.3.2">
 
     <name>Facebook Connect</name>
-    
+
     <description>
       &lt;p&gt;This is the official plugin for Facebook in Apache Cordova/PhoneGap!&lt;/p&gt;
       
@@ -15,12 +15,12 @@
       If this is not possible then the sign on will degrade gracefully using the standard dialog
       based authentication.&lt;/p&gt;
     </description>
-    
+
     <license>Apache 2.0</license>
     
     <asset src="www/cdv-plugin-fb-connect.js" target="js/cdv-plugin-fb-connect.js" />
     <asset src="www/facebook-js-sdk.js" target="js/facebook-js-sdk.js" />
-    
+
     <config-file target="config.xml" parent="/*">
       <access origin="https://m.facebook.com" />
       <access origin="https://graph.facebook.com" />
@@ -28,11 +28,11 @@
       <access origin="https://*.fbcdn.net" />
       <access origin="https://*.akamaihd.net" />
     </config-file>
-    
+
     <engines>
       <engine name="cordova" version=">=3.0.0" />
     </engines>
-    
+
     <!-- android -->
     <platform name="android">
 
