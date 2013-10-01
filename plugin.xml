@@ -18,12 +18,12 @@
 
     <license>Apache 2.0</license>
     
-    <js-module src="www/cdv-plugin-fb-connect.js" name="Ymagyn">
-        <clobbers target="YmagynView" />
+    <js-module src="www/cdv-plugin-fb-connect.js" name="Facebook">
+        <clobbers target="FacebookConnect" />
     </js-module>
     
-    <js-module src="www/facebook-js-sdk.js" name="Ymagyn">
-        <clobbers target="YmagynView" />
+    <js-module src="www/facebook-js-sdk.js" name="Facebook">
+        <clobbers target="FacebookConnect" />
     </js-module>
 
     <config-file target="config.xml" parent="/*">
